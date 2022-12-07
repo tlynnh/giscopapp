@@ -1,0 +1,793 @@
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta charset="utf-8">
+
+<style>
+.pnt {margin:0px auto;height:100%;padding: 20px;font-family:calibri;background-color:transparent;background-image:url(https://pile.randimg.net/3/80/207501/giscop.png);background-repeat:repeat-y;background-attachment: fixed;background-size:cover;overflow:auto;}
+
+.clps {
+background-color:#5475a7;
+color:#fff;
+padding:10px;
+width: 100%;
+border:1px solid navy;
+border-radius:800px;
+font-size:18px;
+text-align:center;
+position:relative;
+font-weight: bold;}
+
+.active, .clps:hover {background-color:#fff;color:#5475a7;}
+
+.con {background-color:transparent;
+background-color:rgba(255,255,255,0.6);
+border-radius:30px;
+padding:0 18px;
+display:none;
+overflow:hidden;
+text-align:justify;
+letter-spacing:0.2px;}
+
+.gc {display:grid;
+grid-template-columns:35% 65%;
+background-color:transparent;
+padding:10px 0px;}
+
+.r {
+background-color:transparent;
+border-bottom:1px solid rgba(0,0,0,0.1);
+padding:10px 0px;
+text-align:right;
+font-size:15px;
+font-family:Georgia;
+color:navy;
+font-weight:600;}
+
+.l {
+background-color:transparent;
+border-bottom:1px solid rgba(0,0,0,0.1);
+padding:10px 0px 10px 20px;
+font-size:15px;
+text-align:left;
+line-height:100%;}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+}
+
+li {
+  margin-top:8px;
+  margin-bottom:8px;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+li:before {
+  content: "»";
+  padding-right: 5px;
+  padding-left:2px;
+}
+
+.ic {background:transparent;
+margin-top:30px;
+height:100%;
+width:100%;}
+
+.ic img {
+border:2px solid #5475a7;
+width:100%;
+height:auto;
+object-fit:contain;
+margin-right:10px;}
+
+.con i {font-size:14px;}
+
+.r b {font-size:15px;font-family:Georgia;color:navy;font-weight:600;}
+
+.con a {text-decoration:none;color:#446da0;}
+
+.ptitle {text-align:center;max-width:95%;margin:0px auto;padding-bottom:20px;}
+.ptitle h3 {color:#5475a7;font-weight:bold;font-size:20px;line-height:101%;}
+.modal-content {padding:10px 25px 10px 25px;text-align:justify}
+.modal-content button {margin-top:10px;}
+
+::-webkit-scrollbar {display: none;}
+@media only screen and (min-width: 800px){
+.ic {display:flex;margin-left:auto;margin-right:auto;width:40%;height:40%;}
+.gc {display:grid;grid-template-columns:45% 55%;background-color:transparent;padding:10px 0px;}}
+
+@media only screen and (max-width: 800px){
+.con a {text-decoration:none;color:#446da0;font-size:14px;}}
+</style>
+</head>
+
+
+<div class="pnt">
+<button type="button" class="clps">Here, There, and Everywhere<i style="font-size:14px;font-weight:normal;">:<br> Harnessing the Power of Place... Together</i></button><div class="con"><div style="margin:20px auto;width:90%"> <p>The <b>GIS Community of Practice</b> is an important tool for GIS staff to build professional relationships, to learn from and leverage other’s areas of expertise, and to stay informed about what is new in terms of <b>best practices</b>, <b>efficiencies</b>, <b>software</b>, and <b>government infrastructure</b>.</p> 
+
+<p>Our theme, <b><i>Here, There, and Everywhere</i></b>, celebrates our community - who we are, where we’re headed, and the impact of our work.  We are <b>Here</b> together to foster connections, learn and inspire each other; <b>There</b> meeting the needs of our clients using the best GIS tools and techniques; and <b>Everywhere</b> serving all sectors across all parts of the province. </p> 
+
+<p>Our sub-theme, <b><i>Harnessing the Power of Place…Together</i></b>, references the <a href="https://tinyurl.com/gssfp" target="_blank">2021 Geospatial Strategy</a> (titled Harnessing the Power of Place), the first sector wide plan in more than a decade.  The strategy casts a vision for equipping government to face today’s challenges through geospatial data-driven decision making.  Our community is integral to the success of this vision and our meeting <b>Together</b> is an important step towards implementation as we share our expertise and build connections. </p> 
+
+<p>Our hope is that the <b>GIS CoP members</b> and our infrastructure partners in attendance will recognize the breadth and importance of our work <b>supporting government priorities</b> and build a <b>supportive network of colleagues</b> to draw upon for finding solutions for clients.</p> </div></div><p></p>
+
+<button type="button" class="clps">Day 1 - November 30</button>
+<div class="con">
+<div style="text-align:center;margin-top:5px;">(Click on sessions with blue text for details)</div>
+<div class="gc">
+<div class="r">8:15 - 9:00</div>
+<div class="l">Registration</div>
+
+<div class="r">9:00 - 9:20</div>
+<div class="l">Table Exercise/Ice Breaker</div>
+
+<div class="r">9:20 - 9:50</div>
+<div class="l"><b><a data-toggle="modal" data-target="#P1" style="cursor:pointer;">Plenary Session:</a></b><br>
+<i>Welcome to the 2022 GIS CoP Conference</i>
+
+<div class="modal fade" id="P1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Welcome to the 2022 GIS CoP Conference</h3>
+<i>Presenters: GIS CoP Planning Team</i></div>
+<p>What is a Community of Practice, What we’re here to accomplish, and What to expect over the next two days.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+</div>
+
+
+<div class="r">9:50 - 10:15</div>
+<div class="l">Coffee & Snack Break</div>
+
+<div class="r">10:15 - 11:00</div>
+<div class="l"><b><a data-toggle="modal" data-target="#P2" style="cursor:pointer;">Plenary Session:</a></b><br>
+<i>Geospatial Strategy</i>
+
+<div class="modal fade" id="P2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Geospatial Strategy</h3>
+<i>Presenters: Nancy Liesch, Andy Calarco</i></div>
+<p>An overview of the 2021 Geospatial Strategy and how we, the Geospatial Community, fit into it.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+</div>
+
+<div class="r">11:00 - 12:00 </div>
+<div class="l"><b><a data-toggle="modal" data-target="#P3" style="cursor:pointer;">Plenary Session:</a></b><br>
+<i>Data and Technology Panel Discussion</i>
+
+<div class="modal fade" id="P3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Data and Technology Panel Discussion</h3>
+<i>Presenters: David Tesch, John Antill, Nancy Liesch</i></div>
+<p>Presentations on the NRS Data Strategy and LiDAR Strategy followed by a panel discussion/Q&A also including the Geospatial Strategy.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+</div>
+
+<div class="r">12:00 - 1:00</div>
+<div class="l">Lunch</div>
+
+<div class="r">1:00 - 1:20</div>
+<div class="l">Table Exercise/Ice Breaker</div>
+
+<div class="r">1:20 - 2:20</div>
+<div class="l"><b>Member Presentations</b><p>
+
+<ul><i>Vancouver Island Ballroom</i>
+<li><a data-toggle="modal" data-target="#7hacks" style="cursor:pointer;">7 Hacks to Level Up Your AGO Game (ESRI Developers Hate This 😲)</a></li></ul><P></p>
+
+<div class="modal fade" id="7hacks" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>7 Hacks to Level Up Your Ago Game (ESRI Developers Hate This 😲)</h3>
+<i>Presenters: Isaac Cave, Megan Fong, Tara Haynes, Eric Millan, Laurence Perry & Russell Vinegar</i></div>
+<p>These 7 hidden tricks can add functionality, improve useability, and make managing your ArcGIS Online (AGO) products a breeze.</p>
+<p>Section one: tips and tricks for Arc GIS Online Dashboards. Creating interactive legends that can filter your map. And showing dynamic objectives and areas on charts.</p>
+<p>Section two: Experience Builder showing our template for nesting Dashboards inside. And a quick tip about using cool icons in your products Section three: using ArcGIS Online Assistant to extend the useability of your charts and to copy symbology across your maps.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+<ul><i>Pender Island Ballroom</i>
+<li><a data-toggle="modal" data-target="#LiDAR" style="cursor:pointer;">LiDAR for All</a></li>
+
+<div class="modal fade" id="LiDAR" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>LiDAR for All</h3>
+<i>Presenters: James Thompson & Kaitlyn McLaren</i></div>
+<p>Our presentation will be a short run-down of LidarBC (what it is, what it isn’t, and how data gets there), as well as a story-map-style look at existing LiDAR data in British Columbia.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+<li><a data-toggle="modal" data-target="#SatFire" style="cursor:pointer;">Satellite Fire Mapping: BCWS Operational Trial 2022</a></li>
+
+<div class="modal fade" id="SatFire" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Satellite Fire Mapping: BCWS Operational Trial 2022</h3>
+<i>Presenter: Ash Richardson </i></div>
+<p>In the 2022 fire season, BCWS Predictive Services Unit and BCWS Geospatial Services teams worked together on a unique operational trial, of low-latency satellite-based fire perimeter mapping using freely available open data, and open-source software. Will report on methods developed and results generated and vetted in-house.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+  
+  
+<li><a data-toggle="modal" data-target="#CommHealth" style="cursor:pointer;">Community Health Service Areas Boundary Revision Project</a></li></ul>
+
+<div class="modal fade" id="CommHealth" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Community Health Service Areas Boundary Revision Project</h3>
+<i>Presenter: Alyssa Parker </i></div>
+<p>Revisions to the Community Health Service Area boundaries with a focus on the GIS tasks involved, including using Python notebooks to semi-automate updates of attribute values and aggregation of census data, as well as brief discussion of other project considerations such as communicating the changes to a wide range of stakeholders.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+  
+  
+</div>
+
+<div class="r">2:20 - 2:40</div>
+<div class="l"><b><a data-toggle="modal" data-target="#LT12" style="cursor:pointer;">Lightning Talks</a></b><br>
+<i>Vancouver Island Ballroom</i>
+
+<div class="modal fade" id="LT12" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>10 Commandments for Clients to Engage in Successful GIS (Web) Projects</h3>
+<i>Presenter: Josh Chan</i></div>
+<p>Help your clients follow these rules to improve your chances of Project Success when doing a big GIS project or navigating the mysteries of making web maps/apps.</p>
+
+<hr style="border-top:1px solid #a3a3a3;"></hr>
+
+<div class="ptitle">
+<h3>Aerial Overview Survey App</h3>
+<i>Presenter: Evan Breton</i></div>
+<p>The Aerial Overview Survey App was conceived as a collaboration with members of GeoBC and the Cariboo Natural Resource Geospatial team. Intended to begin working towards a more efficient digital platform for surveyors to utilize while capturing Aerial Overview Survey data during survey flights. The new Aerial Overview Survey App looks to eliminate the time-consuming digitization of Aerial Overview Survey data which occurs each season, working to bring new technologies into practice.</p>
+
+<hr style="border-top:1px solid #a3a3a3;"></hr>
+
+<div class="ptitle">
+<h3>A Survey 123 Deployment</h3>
+<i>Presenter: Erin O’Brien & Dan Sirk</i></div>
+<p>Survey123 Part I</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+</div>
+
+<div class="r">2:40 - 3:05</div>
+<div class="l">Break</div>
+
+<div class="r">3:05 - 4:05</div>
+<div class="l"><b>Member Presentations</b><p>
+
+<ul><i>Vancouver Island Ballroom</i><br>
+<li><a data-toggle="modal" data-target="#PREM" style="cursor:pointer;">Power of Relationships in Emergency Management: The BCWS/GeoBC Connection</a></li>
+
+<div class="modal fade" id="PREM" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Power of Relationships in Emergency Management: The BCWS/GeoBC Connection</h3>
+<i>Presenter: Evan Timms & Devona Hay</i></div>
+<p>How relationship building and collaboration in the public service, has strengthened the province’s resiliency in managing emergencies…GIS style.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+<li><a data-toggle="modal" data-target="#WIBC" style="cursor:pointer;">Wildfire Impacts to BCTS Okanagan-Columbia</a></li>
+
+<div class="modal fade" id="WIBC" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Wildfire Impacts to BCTS Okanagan-Columbia</h3>
+<i>Presenter: Graydon Shevchenko</i></div>
+<p> Overview of a Python tool run in ArcGIS to summarize the impacts wildfires have on BCTS blocks and operating areas. The script outputs a series of maps, kmls, as well as a summary spreadsheet and sends the results to a list of email addresses.
+</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+
+<li><a data-toggle="modal" data-target="#ECog" style="cursor:pointer;">ECognition and its Utilization for Fire Investigations by Compliance and Enforcement</a></li></ul>
+
+<div class="modal fade" id="ECog" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>ECognition and its Utilization for Fire Investigations by Compliance and Enforcement</h3>
+<i>Presenter: Amanda Malthus</i></div>
+<p> Using NDVI and eCognition to create more interior data with regards to burn and non burn for more defensible damages calculation. Taking a look at some data that has been ground truthed and what we have learned along the way with regards to methodology. </p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+<hr style="border-top:0.5px solid #a3a3a3;"></hr><br>
+
+<b>Technical Session</b><p>
+
+<ul><i>Pender Island Ballroom</i>
+<li><a data-toggle="modal" data-target="#API" style="cursor:pointer;">ArcGIS API for Python: "Hello! Pleased to Meet You."</a></li></ul>
+
+<div class="modal fade" id="API" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>ArcGIS API for Python: "Hello! Pleased to Meet You."</h3>
+<i>Presenter: Wes Smith, Michael MacRae, Jason Xiao</i></div>
+<p> The ArcGIS API for Python is an access key to many elements of the ArcGIS Online environments. The API grants access to web-GIS-based visualization and analysis, spatial data management and GIS system administration. In this technical session, the API will be introduced, and resources will be provided to better understand and use the API. Furthermore, multiple examples will be given exhibiting how it has been used within the BC Government in scripts and tools. </p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+</div>
+
+<div class="r">4:05 - 4:25</div>
+<div class="l"><b><a data-toggle="modal" data-target="#LT14" style="cursor:pointer;">Lightning Talks</a></b><br>
+<i>Vancouver Island Ballroom</i>
+
+<div class="modal fade" id="LT14" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>What’s new with data publication</h3>
+<i>Presenter: Corinne Bexson</i></div>
+<p>The Data Publication Services (DPS) team at DataBC works cross-government with business areas to make their data available to a wide audience via DataBC’s services, like the BC Geographic Warehouse, the BC Data Catalogue and iMapBC.</p>
+<ul>This lightning talk will cover:
+<li>Cost Model update – changes to the cost model for publishing and updating data in the BC Geographic Warehouse</li>
+<li>Am I Ready – what is required before the publication request</li>
+<li>Requesting a data publication – Using the Data Systems and Services Request System</li></ul>
+
+<p>What happens next – Is there a queue? When will work begin? How long does it take? Answers to hot topic questions.</p>
+
+<hr style="border-top:1px solid #a3a3a3;"></hr>
+
+<div class="ptitle">
+<h3>Lidar working group report out</h3>
+<i>Presenter: Kathleen McGuinness</i></div>
+<p>Introduction on the LiDAR Working group including our purpose, membership, products, and activities.</p>
+
+<hr style="border-top:1px solid #a3a3a3;"></hr>
+
+<div class="ptitle">
+<h3>The benefits of on-the-job learning through Co-Op for GIS</h3>
+<i>Presenter: Daniel Osborne / Corrine Roesler</i></div>
+<p>This lightning talk will focus on highlighting the benefits of taking on Co-Op students to GIS departments, both for the department and the student. GIS courses are often conducted in a sterile environment with little capacity for adapting and dealing with incomplete or dirty data. On the job learning through Co-Op can produce more effective GIS professionals by introducing real-world implications not always seen in GIS courses. This benefits both the industry and students by creating more prepared individuals coming out of education into the job market.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+</div>
+
+<div class="r">4:25 - 4:30</div>
+<div class="l">Day 1 Wrap-Up<br>
+<i>Vancouver Island Ballroom</i></div>
+
+<div class="r">4:30 - 5:00</div>
+<div class="l">Free Time & Networking<br>
+<i>Vancouver Island Ballroom</i></div>
+
+<div class="r">4:30 - 6:30</div>
+<div class="l">Social & Recognition Awards (cash bar)<br>
+<i>Pender Island Ballroom</i></div></div>
+
+</p>
+</div><p>
+</p>
+<button type="button" class="clps">Day 2 - December 1</button>
+<div class="con">
+<div style="text-align:center;margin-top:5px;">(Click on sessions with blue text for details)</div>
+<div class="gc">
+<div class="r">8:30 - 8:40</div>
+<div class="l">Good Morning Address</div>
+
+<div class="r">8:40 - 9:20</div>
+<div class="l"><b><a data-toggle="modal" data-target="#P4" style="cursor:pointer;">Plenary Session:</a></b><br>
+<i>Space, Place, and Meaning: autonomy, ethics and sharing in the age of standardization.</i>
+
+<div class="modal fade" id="P4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Space, Place, and Meaning:<br>
+autonomy, ethics and sharing in the age of standardization</h3>
+<i>Presenters: Peter L. Pulsifer, Ph.D. (Carleton University)</i></div>
+<p>In all domains of society (social, economic, research etc.), the volume, variety and velocity of data continues to increase rapidly. Big Data, Artificial Intelligence and Machine Learning are terms that have become part of the mainstream lexicon. The move towards interconnected, interoperable information systems that support the resulting need for enhanced data flows is driving the development and adoption of information technology standards.</p>
+
+<p>Projects such as the Canadian Consortium for Arctic Data Interoperability are using standards combined with interoperable services to make data from and about the Arctic more available. However, effective and ethical implementation of standards requires that we examine the process through a critical lens by identifying the broader implications of standardization and questioning foundational conceptualizations like “space” and “place”. As a non-Indigenous practitioner, the author shares observations on the application of standardization and interoperable systems as a partner in the coproduction of Indigenous information systems.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+</div>
+
+<div class="r">9:20 - 10:00</div>
+<div class="l"><b>Member Presentations</b><p>
+
+<ul><i>Vancouver Island Ballroom</i>
+<li><a data-toggle="modal" data-target="#MM" style="cursor:pointer;">Mobile Monitoring</a></li>
+
+<div class="modal fade" id="MM" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Mobile Monitoring</h3>
+<i>Presenter: Courtenay Nicol & Nadia Lee </i></div>
+<p> As part of MoTI’s Highway Maintenance Agreement with its Maintenance Contractors, MoTI Operations staff monitor and assess performance along our road network. The Mobile Monitoring Records app is a tool MoTI staff use to create monitoring records in the field and further reported on seasonally to help assess. </p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+<li><a data-toggle="modal" data-target="#JSON" style="cursor:pointer;">Best Friends Forever: R, GitHub, Docker, and Google Cloud Platform Work Together to Deploy and Manage a Web Map App</a></li></ul>
+
+<div class="modal fade" id="JSON" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Best Friends Forever: R, GitHub, Docker, and Google Cloud Platform Work Together to Deploy and Manage a Web Map App</h3>
+<i>Presenter: Paulina Marczak</i></div>
+<p>This talk provides a very brief overview to my experience using open-source web app development and deployment. R Shiny is an open-source alternative to the standard commercial GIS SaaS offerings. GitHub is a version control system that provides a more comprehensive code tracking system than saving your code with today's date. Docker is a way to containerize your script or app so it works on other systems without additional setup. Google Cloud Platform is a deployment service that allows you to build, test, and deploy on a serverless CI/CD platform.</p>
+<p>I will very briefly go through how I set up an R Shiny ap pthrough GitHub and used a docker image to set up and run the project in Google Cloud Platform.</p>
+<p>Familiarity with R programming is nice, but those with a basic python background or general interest in high-level programming would also get something out of this talk.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+<p>
+
+<ul><i>Pender Island Ballroom</i>
+<li><a data-toggle="modal" data-target="#QGIS" style="cursor:pointer;">Green Eggs and QGIS</a></li>
+
+<div class="modal fade" id="QGIS" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Green Eggs and QGIS</h3>
+<i>Presenter: Will Burt</i></div>
+<p>This presentation goes from here, there and everywhere with QGIS and it’s open source friends. It’s a feature filled buffet to grow knowledge of Free and Open Source GIS which of course includes QGIS - the best GIS desktop around. </p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+<li><a data-toggle="modal" data-target="#dissect" style="cursor:pointer;">dissect - a QGIS plugin for reporting overlapping datasets</a></li></ul>
+
+<div class="modal fade" id="dissect" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>dissect - a QGIS plugin for reporting overlapping datasets</h3>
+<i>Presenter: Russell Vinegar</i></div>
+<p>dissect is an easy-to-use QGIS plugin to find out what features overlap with an area of interest. In the summer of 2022, we revamped the QGIS Reports Plugin to be more stable and accessible. dissect is the result of this work, now capable of searching through 100+ BCGW and local datasets in minutes to give you a clear, portable HTML report.</p>
+<P>In this talk, we'll demonstrate how to get up and running with dissect, including installation, usage, and customization options.</p>
+<p>No previous familiarity with QGIS is necessary.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+</div>
+
+<div class="r">10:00 - 10:20</div>
+<div class="l"><b><a data-toggle="modal" data-target="#LT210" style="cursor:pointer;">Lightning Talks</a></b><br>
+<i>Vancouver Island Ballroom</i>
+
+<div class="modal fade" id="LT210" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Drones: They Also Map</h3>
+<i>Presenter: James Thompson & Dan Sirk</i></div>
+<p>Bridging the gap between the geospatial community and the drone community</p>
+
+<hr style="border-top:1px solid #a3a3a3;"></hr>
+
+<div class="ptitle">
+<h3>What's new with the Simple Map Kit?</h3>
+<i>Presenter: Michael Nelson</i></div>
+<p>Simple Map Kit is an open source tool that enables authors to create web mapping applications using BC data. In this talk we'll begin with a (re)introduction to SMK and then highlight some recent updates we've made.</p>
+
+<hr style="border-top:1px solid #a3a3a3;"></hr>
+
+<div class="ptitle">
+<h3>How NOT to develop metrics for wildlife management practices.</h3>
+<i>Presenter: Noelle Bouvier</i></div>
+<p>This talk covers exploring the applicability of different spatial metrics for forest practices, with the goal of developing General Wildlife Measures for Ungulate Winter Range areas. Ultimately, none of the metrics were selected and this presentation reveals why.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+</div>
+
+<div class="r">10:20 - 10:50</div>
+<div class="l">Coffee & Snack Break</div>
+
+<div class="r">10:50 - 11:50</div>
+<div class="l"><b>Member Presentations</b><p>
+
+<ul><i>Vancouver Island Ballroom</i>
+<li><a data-toggle="modal" data-target="#BCHS" style="cursor:pointer;">Monitoring Health Service Pressures with BC Emergency Health Services during a Pandemic</a></li>
+
+<div class="modal fade" id="BCHS" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Monitoring Health Service Pressures with BC Emergency Health Services during a Pandemic</h3>
+<i>Presenter: Trilby Buck, Jesse Bennett, Helen Liang</i></div>
+<p>During the pandemic our health care system has been a focal point of our society. The Business Innovation and Emergency Response team has partnered with BC Emergency Health Services Disaster Risk Reduction team to create a series of automated dashboard and maps that provide a common operating picture of the short and long-term pressures ambulance calls, wait times, and on their systems. Come listen to how we overcame inter-organizational barriers (including literal firewalls) and managed risk to create a meaningful collection of products that support organizational change during a challenging time.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+<li><a data-toggle="modal" data-target="#Scrum" style="cursor:pointer;">DIY Scrum - Another (dare we say better) Way to Get Things Done</a></li>
+
+<div class="modal fade" id="Scrum" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>DIY Scrum - Another (dare we say better) Way to Get Things Done</h3>
+<i>Presenter: Julie Scott-Ashe & Josh Chan </i></div>
+<p>A discussion of ideas stolen from Agile and Scrum to make your GIS projects more successful, less stressful, and generally better for everyone involved, the client, the audience, and you, the GISer.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+<li><a data-toggle="modal" data-target="#BCMH" style="cursor:pointer;">The BC Map Hub: What Every User of This Popular Service Should Know</a></li>
+
+<div class="modal fade" id="BCMH" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>The BC Map Hub: What Every User of This Popular Service Should Know</h3>
+<i>Presenter: Marion Boulstridge, Caitlin Leckie</i></div>
+<p>ArcGIS Online (AGO) has become incredibly popular in the BC Gov since its adoption 6 years ago. What sets the BC Map Hub apart from AGO, and what every user should know.</p>
+<p>Will cover the differences between vanilla ArcGIS Online and the BC Map Hub including governance, account management, data access services, and support options.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+</ul>
+
+<hr style="border-top:1px solid #a3a3a3;"></hr>
+
+<b>Technical Session</b><p>
+
+<ul><i>Pender Island Ballroom</i>
+<li><a data-toggle="modal" data-target="#GIT" style="cursor:pointer;">GIT 101: Implementing version control in programming</a></li>
+
+<div class="modal fade" id="GIT" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>GIT 101: Implementing version control in programming</h3>
+<i>Presenter: Lussin Maddison</i></div>
+<p>This presentation will cover the basics of version control using GIT, and how it can help your team improve communication, and quality control. What is GIT? It is a system of version control for programming that is widely used to track projects in the software development world. It enables tracking of who made changes to the code as well as, why, and when the changes were made. QA protocols, rolling back changes, and alternate versions, are just a few examples of what GIT is capable of.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+<li><a data-toggle="modal" data-target="#NoGIT" style="cursor:pointer;">Creating a Centralized Git System without GitHub</a></li>
+
+<div class="modal fade" id="NoGIT" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Creating a Centralized Git System without GitHub</h3>
+<i>Presenter: Brett Edwards</i></div>
+<p>This demonstration will cover how to create and use a centralized git versioning system that is contained within a government network. We will cover the pros and cons of this method vs a GitHub repository as well as how to set up and contribute to a bare repository.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+</ul>
+</div>
+
+<div class="r">11:50 - 12:10 </div>
+<div class="l"><b><a data-toggle="modal" data-target="#LT211" style="cursor:pointer;">Lightning Talks</a></b><br>
+<i>Vancouver Island Ballroom</i>
+
+<div class="modal fade" id="LT211" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Why it would be cool to bring BIM into Highways GIS – Inspired by Programs and Partnership Road Trip</h3>
+<i>Presenter: Hayley Coburn</i></div>
+<p>In October 2022, our GIS team was fortunate to join MoTI's SIR Programs and Partnership Road Trip. The purpose of the trip was to look at ongoing and proposed MoTI projects along Hwy 1 and Hwy 95. During the trip, the GIS team was bursting with ideas on how to incorporate GIS into all these projects. Stay tuned to find out what our vision is for the future of GIS in MoTI Projects. </p>
+
+<hr style="border-top:1px solid #a3a3a3;"></hr>
+
+<div class="ptitle">
+<h3>The Model Library: Tips and Tricks</h3>
+<i>Presenter: Destany Crane</i></div>
+<p>Last Spring, we introduced you to the Natural Resource Data Model Library (NRMDL). Today, Destany will give you some tips on using “The Model Library” and updates on where the service is now.</p>
+
+<hr style="border-top:1px solid #a3a3a3;"></hr>
+
+<div class="ptitle">
+<h3>AGOL as a Means to an End</h3>
+<i>Presenter: Josh Doerksen</i></div>
+<p>Instead of AGOL apps being the final product I will explore using AGOL apps to produce more refined analysis products by empowering clients, stakeholders, and partners to interact with and truly understand their data. A Together for Wildlife project will be used to highlight the benefits and pitfalls of this approach to web app use.</p>
+
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+</div>
+
+<div class="r">12:00 - 1:10</div>
+<div class="l">Lunch</div>
+
+<div class="r">12:55 - 1:10</div>
+<div class="l">Map Gallery - Meet & Greet</div>
+
+<div class="r">1:10 - 2:10</div>
+<div class="l"><b>Member Presentations</b><p>
+
+<ul><i>Vancouver Island Ballroom</i>
+<li><a data-toggle="modal" data-target="#PDP" style="cursor:pointer;">Provincial Data Plan Overview</a></li>
+
+<div class="modal fade" id="PDP" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Provincial Data Plan Overview</h3>
+<i>Presenter: Colin Newall & Erin Grant</i></div>
+<p>This presentation will overview the Provincial Data Plan's goals, key enablers and some of the significant initiatives in progress. Highlights include: reformed corporate data governance, draft Data Management Policy, anti-racism data analysis, support for indigenous names, standardizing gender and sex codes, and core metadata standard.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+<li><a data-toggle="modal" data-target="#DataBC" style="cursor:pointer;">DataBC: What we can do for you...</a></li>
+
+<div class="modal fade" id="DataBC" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>DataBC: What we can do for you...</h3>
+<i>Presenter: Nicole de Greef, Brad Sparks, Corinne Bexson, Annika Livingston</i></div>
+<p>An overview of some of the products and services that DataBC provides for the geospatial community.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+<li><a data-toggle="modal" data-target="#Postgres" style="cursor:pointer;">Provincial Analysis with Postgres</a></li>
+
+<div class="modal fade" id="Postgres" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Provincial Analysis with Postgres</h3>
+<i>Presenter: Iaian McDougall</i></div>
+<p>A overview of the Forest Analysis and Inventory Branch’s (FAIB) provincial grid based provincial database. This system was designed to use all open source tools (e.g. R and Postgres) and has significantly improved turn around time on provincial scale analyses.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+</ul>
+<hr style="border-top:1px solid #a3a3a3;"></hr><br>
+
+<b>Technical Session</b><p>
+
+<ul><i>Pender Island Ballroom</i>
+<li><a data-toggle="modal" data-target="#S101" style="cursor:pointer;">Survey123 101</a></li>
+</ul>
+
+<div class="modal fade" id="S101" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Survey123 101</h3>
+<i>Presenter: Kerry Kang & Jesse Bennett</i></div>
+<p>Survey123 is a powerful ArcGIS Online based tool that replaces traditional paper-based data collection with a sophisticated digital smart form. The form is easy to create either using ArcGIS Online environment or the Survey123 Connect application. In this technical session, unique functionalities of Survey123 will be introduced along with multiple examples using a scenario-based approach. Additionally, tips and tricks will be provided.</p>
+<p style="text-align:center;"><a href="http://arcg.is/0CGPuf"><b>Click to fill out survey!</b></a></p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+</div>
+
+<div class="r">2:10 - 2:35</div>
+<div class="l"><b><a data-toggle="modal" data-target="#LT22" style="cursor:pointer;">Lightning Talks</a></b><br>
+<i>Vancouver Island Ballroom</i>
+
+<div class="modal fade" id="LT22" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Non-Corporate Annotation and Other Things </h3>
+<i>Presenter: Gail Smith</i></div>
+<p>The lack of pre-canned annotation at various scales had been a personal annoyance for many years. It took one conversation 13 years ago to result in the creation of user-maintained annotation at 3 different scale and has continued to slowly expand over the years. This talk is about the old stuff for new staff and the newer stuff for all staff!</p>
+
+<hr style="border-top:1px solid #a3a3a3;"></hr>
+
+<div class="ptitle">
+<h3>BC Parks Asset Management System</h3>
+<i>Presenter: Hilary Parry</i></div>
+<p>BC Parks has implemented an asset management system – a cloud based database application that tracks infrastructure assets. The system tracks financial data, classifications and attributes as well as location. The purpose of the presentation is to let the greater GIS community know that the data exist – want to know where bridges or boardwalks or picnic tables or just about anything is located – we got it! Secondly we want to share how we’ve captured the data and future challenges, namely capturing linear data.</p>
+
+<hr style="border-top:1px solid #a3a3a3;"></hr>
+
+<div class="ptitle">
+<h3>Survey 123 Results</h3>
+<i>Presenter: Erin O’Brien & Dan Sirk</i></div>
+<p>Survey123 Part II</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+</div>
+
+<div class="r">2:35 - 3:00</div>
+<div class="l">Break, Map Gallery Voting</div>
+
+<div class="r">3:00 - 4:00</div>
+<div class="l"><b>Member Presentations</b><p>
+
+<ul><i>Vancouver Island Ballroom</i>
+<li><a data-toggle="modal" data-target="#SFM" style="cursor:pointer;">Surface Flow Modelling with a Hexagonal Twist</a></li>
+
+<div class="modal fade" id="SFM" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Surface Flow Modelling with a Hexagonal Twist</h3>
+<i>Presenter: Mike Shasko</i></div>
+<p>This is the 4th installment of the Surface Flow Model/HexGrid presentation to the GIS CoP. This presentation covers many recent developments with the modelling functionality along with a few new end products and analytical features.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+<li><a data-toggle="modal" data-target="#TBD" style="cursor:pointer;">Field Maps and Complex Data Collection: Establishing a home-field advantage</a></li>
+
+<div class="modal fade" id="TBD" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Field Maps and Complex Data Collection: Establishing a home-field advantage</h3>
+<i>Presenter: Jonathan Decker</i></div>
+<p>Collecting complex data sets using Field Maps.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+<li><a data-toggle="modal" data-target="#Jenkins" style="cursor:pointer;">Jenkins – Our Python Scheduler Butler</a></li>
+
+<div class="modal fade" id="Jenkins" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Jenkins – Our Python Scheduler Butler</h3>
+<i>Presenter: Ada Li & Michael Dykes</i></div>
+<p>You may have heard this unusual name whispered in the winds of your office hallway and wondered “Who is Jenkins?”. Join our presentation to find out about how to get setup to schedule Python tasks in Jenkins and some tips and tricks to make the most out of your automated workflows.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+</ul><p>
+
+<ul><i>Pender Island Ballroom</i>
+<li><a data-toggle="modal" data-target="#OpSo" style="cursor:pointer;">Open source software and geospatial frame data model to simplify map integration and product delivery</a></li>
+
+<div class="modal fade" id="OpSo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Open source software and geospatial frame data model to simplify map integration and product delivery</h3>
+<i>Presenter: Yao Cui</i></div>
+<p>Presentation of a process to simplify map integration and product delivery by using free and open source software for geospatial (FOSS4G), as part of effort in digital transformation of geoscience to enable analytics.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+<li><a data-toggle="modal" data-target="#Geo" style="cursor:pointer;">An Exploration of Data Science on Geospatial Data</a></li>
+
+<div class="modal fade" id="Geo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>An Exploration of Data Science on Geospatial Data</h3>
+<i>Presenter: Evan Harley</i></div>
+<p>Geospatial data makes up a great deal of the data that is used to make decisions. Let’s explore some of the interesting challenges presented by that data as we move towards doing predictive analysis on those datasets. We’ll look at geospatial data quality, a couple of simple machine learning projects, and a brief look at a state of the art Spatio-Temporal Demand Model (in simple terms).</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+<li><a data-toggle="modal" data-target="#BM" style="cursor:pointer;">Accelerate your Basemap with Vector Tile Cache</a></li>
+
+<div class="modal fade" id="BM" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+<div class="ptitle">
+<h3>Accelerate your Basemap with Vector Tile Cache</h3>
+<i>Presenter: Maddi Lussin & David Zhang</i></div>
+<p>In this talk we will brief the audience on the conception and the journey of the project as well as some major technical difficulties the tile cache team had overcome. We will also outline the advantages we saw over traditional raster tile cache basemap. Finally we will showcase the product, outline what future releases may hold and answer any questions from the audience.</p>
+<p><center><button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button></center></p>
+</div></div></div>
+
+</ul>
+</div></div>
+
+</p>
+</div>
+<div class="ic"><a href="https://nrs.objectstore.gov.bc.ca/xedyjn/Projects/2022/GISCOP2022/hotelgrandpacific_layout.PNG" target="_blank"><img src="https://nrs.objectstore.gov.bc.ca/xedyjn/Projects/2022/GISCOP2022/hotelgrandpacific_layout.PNG"></a></div>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("clps");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
+</script>
